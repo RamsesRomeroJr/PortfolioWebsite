@@ -1,8 +1,8 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/HypeGeek-WireFrame-Splash.jpg";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/ThreadsClone.gif";
+import projImg2 from "../assets/img/HypeGeek-WireFrame-Splash.jpg";
 import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,17 +11,17 @@ export const Projects = () => {
 
     const projects = [
         {
+            title: "Threads Clone",
+            description: "Threads Clone... with more features",
+            imgUrl: projImg1,
+            githubUrl: "https://github.com/dakotabenger/flavorgram-menoitios",
+            liveUrl: "https://clone-of-threads.vercel.app/"
+        },
+        {
             title: "HypeGeek",
             description: "HypeGeek is THE site for sneaker heads to get all the info they need! ",
             imgUrl: "https://raw.githubusercontent.com/RamsesRomeroJr/HypeGeek/main/Snippets/HypeGeek-signup-login.gif",
             githubUrl: "https://github.com/RamsesRomeroJr/HypeGeek",
-            liveUrl: ""
-        },
-        {
-            title: "Flavorgram",
-            description: "Centered around sharing photos of amazing dishes and recipes for  food lovers.",
-            imgUrl: "https://github.com/dakotabenger/flavorgram-menoitios/blob/main/react-app/public/Flavorgram-CanLike.gif?raw=true",
-            githubUrl: "https://github.com/dakotabenger/flavorgram-menoitios",
             liveUrl: ""
         },
         {
